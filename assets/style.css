@@ -1,0 +1,73 @@
+body{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+}
+
+#activate{
+
+    background-color: blanchedalmond;
+
+    width: 400px;
+
+    height: auto;
+
+    border: solid;
+
+    border-color: rgba(165, 104, 42, 0.153);
+
+    text-align: center;
+
+    border-radius: 20px;
+
+    margin:auto;
+
+    font-size: xx-large;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+img{
+
+    display:block;
+    margin:auto;
+    margin-top: 200px;
+
+}
+
+#activate:hover{
+
+    background-color: rgba(165, 95, 42, 0.553);
+
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 600px){
+
+    img{
+
+        width:100%;
+        margin: 0;
+
+    }
+
+    #activate{
+
+       margin-top:10px;
+       
+       margin-bottom: 100px;
+        
+
+    }
+
+
+    
+
+}
